@@ -34,7 +34,12 @@ models:
 
 
 vars:
-  # shopify_database: shopify_connector_database_name # this usually does not change
-  # shopify_schema: shopify_connector_name
-  # fivetran_log_database: fivetran_log_connector_database_name # this usually does not change
-  # fivetran_log_schema: fivetran_log_connector_name 
+    ##Facebook Pages schema and database variables
+    facebook_pages_schema: facebook_pages_schema
+
+    ##Instagram Business schema and database variables
+    instagram_business_schema: newinstagram_business_schema
+
+
+    ##LinkedIn Pages schema and database variables
+    linkedin_pages_schema: newlinkedin_company_pages_schema
